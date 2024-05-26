@@ -114,13 +114,23 @@ export default function About() {
           />
           <BentoGridItem
             header={
-              <div className="flex flex-wrap justify-around items-end content-end gap-5">
+                <div className="h-full flex flex-col items-center justify-around">
+                  <Image src="/ucr.svg" width={400} height={20} alt="UCR logo" />
+                  <div className="text-lg flex">B.S in Computer Science</div>
+                </div>
+            }
+            className="md:col-span-2"
+          />
+
+          <BentoGridItem
+            header={
+              <div className="flex flex-wrap justify-around items-end content-end gap-14 mx-10">
                 {techStackItems.map((item, i) => (
                   <TechStackItem src={item.src} label={item.label} key={i} />
                 ))}
               </div>
             }
-            className="md:col-span-2"
+            className="md:col-span-3"
           />
         </BentoGrid>
       </div>
