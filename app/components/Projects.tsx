@@ -10,7 +10,7 @@ export default function Projects() {
   
   return (
     <div className="p-10 md:p-32">
-      <div className={`${fira.className} text-2xl md:text-5xl font-medium`}>
+      <div className={`${fira.className} antialiased text-2xl md:text-5xl font-medium`}>
         {"<Projects/>"}
       </div>
       <div className="flex flex-row flex-wrap justify-center md:justify-between content-start">
