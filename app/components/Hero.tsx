@@ -39,7 +39,7 @@ export default function Hero() {
 function Button({ title, link, iconSrc }: { title: string, link: string, iconSrc: string }) {
   return (
     <a href={link} target="_blank">
-      <button className="border px-6 py-3 font-medium rounded-full bg-slate-300 text-black flex flex-row items-center gap-2">
+      <button className="border px-6 py-3 font-medium rounded-full bg-slate-300 text-black flex flex-row items-center gap-2 hover:scale-110 transition-transform	">
         <Image src={iconSrc} width={20} height={20} alt={`${title} icon`} />
         
         <div className="hidden sm:block">{title}</div>
