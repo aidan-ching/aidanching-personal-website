@@ -82,12 +82,12 @@ export default function About() {
               />
             }
             title="Aidan Ching"
-            description="is a software engineer studying computer science. He specializes in frontend web development, creating beautiful and interactive websites that are accessible to all."
+            description="I am a software engineer studying computer science. I specialize in frontend web development, creating beautiful and interactive websites that are accessible to all."
             className="md:col-span-1 md:row-span-2"
           />
           <BentoGridItem
             header={
-              <div className="flex justify-center items-center h-full font-semibold text-9xl hover:text-blue-400 transition-colors select-none">
+              <div className="flex justify-center items-center h-full font-semibold lg:text-8xl hover:text-blue-400 transition-colors select-none">
                 香港
               </div>
             }
@@ -98,14 +98,14 @@ export default function About() {
               <div className="flex justify-around h-full items-center">
                 <Image
                   src="/shuttlecock.png"
-                  width={100}
-                  height={100}
+                  width={70}
+                  height={70}
                   alt="shuttlecock icon"
                 />
                 <Image
                   src="/frisbee.png"
-                  width={100}
-                  height={100}
+                  width={70}
+                  height={70}
                   alt="frisbee icon"
                 />
               </div>
@@ -130,7 +130,7 @@ export default function About() {
                 ))}
               </div>
             }
-            className="md:col-span-3"
+            className="md:col-span-3 flex grow"
           />
         </BentoGrid>
       </div>

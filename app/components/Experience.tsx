@@ -57,7 +57,7 @@ export default function Experience() {
       </div>
 
       <div className="flex justify-center mt-10">
-        <ScrollArea className="md:w-2/3 whitespace-nowrap rounded-md">
+        <ScrollArea className="whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {TotalExperience.map((exp, i) => (
               <div key={i}>
@@ -79,7 +79,7 @@ export default function Experience() {
               </div>
             ))}
           </div>
-          <ScrollBar orientation="horizontal" />
+          <ScrollBar orientation="horizontal" className="scrollbar-color"/>
         </ScrollArea>
       </div>
     </div>

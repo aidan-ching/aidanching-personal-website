@@ -30,7 +30,7 @@ export default function Hero() {
       <div className="w-full relative flex justify-center gap-10 md:justify-around md:gap-0 top-32 md:top-20">
         <Button title="LinkedIn" link="https://www.linkedin.com/in/aidan-ching-ab40371b9/" iconSrc="/icons/linkedin-icon.svg"/>
         <Button title="GitHub" link="https://github.com/aidan-ching" iconSrc="/icons/github-icon.svg"/>
-        <Button title="Resume" link="https://drive.google.com/file/d/1oFU2cDfiMNM1r2E__ZWDebhNaxN6pmAG/view?usp=sharing" iconSrc="/icons/document-text.svg"/>
+        <Button title="Resume" link="https://drive.google.com/file/d/1AODoV3FpUaaRrqtUU33El1P7RNCMXPT3/view?usp=sharing" iconSrc="/icons/document-text.svg"/>
       </div>
     </HeroHighlight>
   );
