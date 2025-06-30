@@ -21,28 +21,35 @@ export interface ExperienceEntry {
 }
 
 export const TotalExperience: ExperienceEntry[] = [
+    {
+    company: "FloQast",
+    title: "Software Engineer",
+    description: `• Developed and maintained accounting software using the MERN stack (MongoDB, Express, React, Node.js), ensuring scalable and reliable performance.
+• Contributed to back-end development with Express, building and optimizing RESTful APIs with a focus on clean, modular code.`,
+    date: "April 2024 - Present",
+  },
   {
     company: "EESA AI",
     title: "Software Engineering Intern",
-    description: `- Worked for a startup company under Berkeley Skydeck incubator program (<3.5% acceptance)
-            - Utilized Next.js to build the frontend for EESA's minimum viable product.
-            - Helped build EESA Lite, a trial version that would serve to bring in potential customers`,
-    date: "April 2024 - Present",
+    description: `• Worked for a startup company under Berkeley Skydeck incubator program (<3.5% acceptance)
+            • Utilized Next.js to build the frontend for EESA's minimum viable product.
+            • Helped build EESA Lite, a trial version that would serve to bring in potential customers`,
+    date: "April 2024 - August 2024",
   },
   {
     company: "Luminous Window Cleaning",
     title: "Sales & Cleaning",
-    description: `- Talked to potential customers to secure sales and ensure quality; helping with customer retention.
-                - Improved efficiency by reducing cleaning time by 30%, by collaborating and planning with co-workers.
-                - Gained skills in collaboration and communication.`,
+    description: `• Talked to potential customers to secure sales and ensure quality; helping with customer retention.
+                • Improved efficiency by reducing cleaning time by 30%, by collaborating and planning with co-workers.
+                • Gained skills in collaboration and communication.`,
     date: "June 2023 - January 2024",
   },
   {
     company: "Chups",
     title: "Distribution & Packing",
-    description: `- Helped with packing food items in a kitchen environment for customers.
-                - Handled the distribution and customer service.
-                - Practiced valuable interpersonal skills in the food service industry.`,
+    description: `• Helped with packing food items in a kitchen environment for customers.
+                • Handled the distribution and customer service.
+                • Practiced valuable interpersonal skills in the food service industry.`,
     date: "July 2021 - September 2021",
   },
 ];

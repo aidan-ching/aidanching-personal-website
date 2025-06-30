@@ -82,7 +82,7 @@ export default function About() {
               />
             }
             title="Aidan Ching"
-            description="I am a software engineer studying computer science. I specialize in frontend web development, creating beautiful and interactive websites that are accessible to all."
+            description="I am a software engineer studying computer science. I specialize in fullstack development, creating clean maintainable code that is accessable to all."
             className="md:col-span-1 md:row-span-2"
           />
           <BentoGridItem

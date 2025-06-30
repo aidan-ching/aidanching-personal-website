@@ -23,14 +23,14 @@ export default function Hero() {
         }}
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
-        {`Hi, I'm Aidan. I am a frontend`}{" "}
+        {`Hi, I'm Aidan. I am a fullstack`}{" "}
         <Highlight>Software Engineer</Highlight>{" "}
         {`located in Southern California.`}
       </motion.h1>
       <div className="w-full relative flex justify-center gap-10 md:justify-around md:gap-0 top-32 md:top-20">
         <Button title="LinkedIn" link="https://www.linkedin.com/in/aidan-ching-ab40371b9/" iconSrc="/icons/linkedin-icon.svg"/>
         <Button title="GitHub" link="https://github.com/aidan-ching" iconSrc="/icons/github-icon.svg"/>
-        <Button title="Resume" link="https://drive.google.com/file/d/1AODoV3FpUaaRrqtUU33El1P7RNCMXPT3/view?usp=sharing" iconSrc="/icons/document-text.svg"/>
+        <Button title="Resume" link="https://drive.google.com/file/d/1phQceHsyWaY3EbpV-uh8RfrpiQyg0_rl/view?usp=sharing" iconSrc="/icons/document-text.svg"/>
       </div>
     </HeroHighlight>
   );
