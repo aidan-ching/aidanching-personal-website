@@ -5,15 +5,23 @@ import { Fira_Code } from "next/font/google";
 import ProjectsCard from "./ProjectsCard";
 const fira = Fira_Code({ subsets: ["latin"] });
 
-
 export default function Projects() {
-  
   return (
     <div className="p-10 md:p-32">
-      <div className={`${fira.className} antialiased text-2xl md:text-5xl font-medium`}>
+      <div
+        className={`${fira.className} antialiased text-2xl md:text-5xl font-medium`}
+      >
         {"<Projects/>"}
       </div>
       <div className="flex flex-row flex-wrap justify-center md:justify-between content-start">
+        <ProjectsCard
+          title="TripList"
+          description="A LLM powered travel itinerary generator that creates a personalized day-by-day itinerary based on user preferences and travel details."
+          imageSrc="/triplist.png"
+          githubSrc="https://github.com/aidan-ching/TripList"
+          projectSrc="https://tripplist.vercel.app/"
+          liveDemo={true}
+        />
         <ProjectsCard
           title="Wordle Unlimited"
           description="A wordle clone written in React, with extra features for user experience."
@@ -31,7 +39,7 @@ export default function Projects() {
           projectSrc="https://aidan-ching.github.io/pathfinding-visualizer/"
           liveDemo={true}
         />
-        {/* 
+
         <ProjectsCard
           title="Sudoku Solver"
           description="GUI based Sudoku game, with solving functionality using the backtracking algorithm. Written in Pygame."
@@ -39,7 +47,7 @@ export default function Projects() {
           githubSrc="https://github.com/aidan-ching/Sudoku-solver"
           projectSrc="https://github.com/aidan-ching/Sudoku-solver"
           liveDemo={false}
-        /> */}
+        />
 
         <ProjectsCard
           title="Calculator"
